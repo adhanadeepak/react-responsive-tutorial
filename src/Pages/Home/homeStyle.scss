@@ -1,0 +1,33 @@
+.service-nav-row{
+  margin-bottom: 3rem;
+}
+
+.services-nav-bar{
+  padding: 1rem 0;
+  background-color: #F6F6F6;
+
+
+  .next-icon, .prev-icon{
+    padding: 0 0.6rem;
+
+  }
+
+  .services-list{
+
+    .services-list-item{
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: normal;
+      font-style: normal;
+      color: #717171;
+      padding: 1rem 1.4rem;
+
+      &.selected{
+        font-weight: 700;
+        font-size: 1.4rem;
+        border-bottom: 3px solid #222;
+      }
+    }
+
+  }
+}

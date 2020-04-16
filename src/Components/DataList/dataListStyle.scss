@@ -1,0 +1,87 @@
+
+
+.blue-details{
+  margin: 0.6rem 0;
+
+  &[open] .details-title::after{
+    transform: rotate(-90deg);
+  }
+
+  .details-title{
+    position: relative;
+    &::-webkit-details-marker{
+      display: none;
+    }
+    &::after{
+      display: inline-block;
+      transform: rotate(90deg);
+      background-image: url('../../Assets/Images/next.png');
+      background-size: 20px;
+      width: 20px;
+      height: 20px;
+      content:"";
+      position: absolute;
+      top: 10px;
+      right: 16px;
+    }
+
+    padding: 0.4rem 1rem;
+    text-align: left;
+    background-color: #282c34;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+  }
+
+  .details-para{
+    background-color: #f5f5f5;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 300;
+
+  }
+}
+
+.gray-details{
+
+  margin: 0.6rem 0;
+
+  &[open] .details-title::after{
+    transform: rotate(-90deg);
+  }
+
+  .details-title{
+    position: relative;
+    &::-webkit-details-marker{
+      display: none;
+    }
+    &::after{
+      display: inline-block;
+      transform: rotate(90deg);
+      background-image: url('../../Assets/Images/next.png');
+      background-size: 20px;
+      width: 20px;
+      height: 20px;
+      content:"";
+      position: absolute;
+      top: 10px;
+      right: 16px;
+    }
+
+    padding: 0.4rem 1rem;
+    text-align: left;
+    background-color: #EAEAEA;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+  }
+
+  .details-para{
+    background-color: #f5f5f5;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 300;
+
+  }
+}

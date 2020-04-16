@@ -1,0 +1,21 @@
+
+.white-btn{
+  border-radius: 0.2rem;
+  outline: none;
+  padding: 0.4rem 0.6rem;
+  text-align: center;
+  border: 1px solid #5a5a5a;
+  background-color: #fff;
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 500;
+  //max-height: 2.5rem;
+
+  &:hover{
+    //opacity: 0.7;
+  }
+
+  &:focus{
+
+  }
+}

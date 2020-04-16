@@ -1,0 +1,37 @@
+
+
+.header-container{
+  min-height: 46.875rem;
+  min-width: 100%;
+  background-size: cover;
+  background: url(https://retail-app.s3.ap-south-1.amazonaws.com/banners-minified/desktop-homepage-banner/home-screen.jpg) no-repeat 25% -3.75rem;
+}
+
+
+.top-headline{
+  padding: 0.6rem 2.2rem 0;
+
+  & .green-link{
+    padding: 0.4rem 0.6rem;
+    color: white;
+    max-width: 8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+  }
+}
+
+.top-row{
+  .nav-bar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .nav-list{
+      padding-right: 2rem;
+      li{
+        padding: 0 1rem;
+        font-size: 1.2rem;
+        font-weight: normal;
+      }
+    }
+  }
+}
