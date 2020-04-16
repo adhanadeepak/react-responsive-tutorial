@@ -116,3 +116,32 @@
 
   }
 }
+
+@media screen and (max-width: 768px){
+  .footer {
+
+    .top-footer{
+      padding: 0;
+
+      .list-container{
+        padding-right: 0;
+      }
+    }
+
+    .bottom-footer{
+
+      .first-footer{
+
+        .wrapper{
+          width: 100%;
+
+          p{
+            width: 100%
+          }
+        }
+      }
+    }
+
+
+  }
+}

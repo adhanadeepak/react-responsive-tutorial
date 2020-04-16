@@ -14,8 +14,8 @@ function Index(props) {
             <div className={`list flex`}>
                 <div className={``}>
                     <ul className={`works-list list-style-none no-padding`}>
-                        <li className={`works-list-item flex`}>
-                            <div className={`number-item flex flex-col items-center justify-center`}>
+                        <li className={`works-list-item flex `}>
+                            <div className={`number-item flex flex-col items-center justify-center hide-on-mobile`}>
                                 <div className={`number-card`}>
                                     1
                                 </div>
@@ -31,8 +31,8 @@ function Index(props) {
                                 <Card image={CarImg}/>
                             </div>
                         </li>
-                        <li className={`works-list-item flex`}>
-                            <div className={`number-item flex flex-col items-center justify-center`}>
+                        <li className={`works-list-item flex row-reverse-mobile`}>
+                            <div className={`number-item flex flex-col items-center justify-center hide-on-mobile`}>
                                 <div className={`number-card`}>
                                     2
                                 </div>
@@ -48,8 +48,8 @@ function Index(props) {
                                 <Card image={CarImg}/>
                             </div>
                         </li>
-                        <li className={`works-list-item flex`}>
-                            <div className={`number-item flex flex-col items-center justify-center`}>
+                        <li className={`works-list-item flex `}>
+                            <div className={`number-item flex flex-col items-center justify-center hide-on-mobile`}>
                                 <div className={`number-card`}>
                                     3
                                 </div>
@@ -65,8 +65,8 @@ function Index(props) {
                                 <Card image={CarImg}/>
                             </div>
                         </li>
-                        <li className={`works-list-item flex`}>
-                            <div className={`number-item flex flex-col items-center justify-center`}>
+                        <li className={`works-list-item flex row-reverse-mobile`}>
+                            <div className={`number-item flex flex-col items-center justify-center hide-on-mobile`}>
                                 <div className={`number-card`}>
                                     4
                                 </div>

@@ -13,3 +13,28 @@
     }
   }
 }
+
+
+@media screen and (max-width: 768px){
+  .service-guide-container{
+    margin: 4rem 0;
+    margin-bottom: 8rem;
+
+    .services-container{
+      height: 25rem;
+      overflow: hidden;
+    }
+
+    .see-more-btn{
+
+      .overlay{
+        padding: 1rem 0;
+        background: linear-gradient(0, rgba(221,221,221,1) 0%, rgba(231,231,232,1) 40%, rgba(255,255,255,1) 100%);
+        filter: blur(0px);
+      }
+      margin-top: -6rem;
+    }
+
+  }
+}
+

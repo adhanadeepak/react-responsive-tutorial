@@ -4,12 +4,24 @@
 
   .brands-list{
     margin: 3rem 0;
+
     .brand-image-container{
       width: 5rem;
       padding: 0 8rem 4rem 0;
       img{
         width: 100%;
       }
+
+    }
+
+  }
+
+  @media screen and (max-width: 768px){
+    .brands-list{
+      .brand-image-container{
+        padding: 0 4rem 4rem 0;
+      }
     }
   }
+
 }

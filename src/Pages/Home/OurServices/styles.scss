@@ -7,7 +7,28 @@
 .card{
   background-color: #F3F3F3;
   border-radius: 0.2rem;
-  width: 10vw;
+  width: 10rem;
   padding: 1rem;
   margin: 0 1.5rem 1.4rem 0;
+}
+
+@media screen and (max-width: 768px){
+
+  .services-cards-list{
+
+    margin: 3rem 0;
+  }
+   .card{
+    width: 8rem;
+    background-color: white;
+    box-shadow: 10px 0 8px 4px #f5f5f5;
+
+     img{
+       width: 100%;
+     }
+
+     .card-title{
+
+     }
+   }
 }

@@ -14,7 +14,7 @@ function Index(props) {
              <Heading>
                  Download GoMechanic App
              </Heading>
-            <div className={`wrapper flex`}>
+            <div className={`wrapper flex flex-col-mobile`}>
                 <div className={`left-image-container`}>
                     <img src={Download} alt=""/>
                 </div>
@@ -29,7 +29,7 @@ function Index(props) {
                         <button className={`link-btn`}>Get App Link</button>
                     </div>
                 </div>
-                <div className={`gray-ribbon`}>
+                <div className={`gray-ribbon hide-on-mobile`}>
 
                 </div>
 

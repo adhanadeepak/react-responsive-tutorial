@@ -13,10 +13,11 @@ import Faqs from './FAQS';
 import Services from './ServiceGuide'
 import DownloadApp from './DownloadApp';
 import Footer from './Footer';
+import StickyForm from './StickyForm';
 
 const Index = (props) => {
     return (
-        <div>
+        <div className={`app-container`}>
             <Header/>
             <ServicesNav/>
             <OurServices/>
@@ -30,6 +31,8 @@ const Index = (props) => {
             <Services/>
             <DownloadApp/>
             <Footer/>
+            <StickyForm/>
+
         </div>
     );
 };

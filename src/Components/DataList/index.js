@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import './dataListStyle.scss'
-import Next from '../../Assets/Images/next.png'
 
 function Index(props) {
 

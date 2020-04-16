@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Heading from 'Components/Heading';
 
 import './servicesStyles.scss'
+import Button from "Components/Button";
 
 function Index(props) {
     return (
@@ -74,6 +75,11 @@ function Index(props) {
                     <h4 className={`service-title`}>Services Offered</h4>
                     <p className={`no-margin`}>With GoMechanic, you can choose from a wide assortment of car services in Delhi. Apart from periodic car
                         servicing, we also offer:</p>
+                </div>
+            </div>
+            <div className={`see-more-btn`}>
+                <div className={`overlay`}>
+                    <Button variant={`white`}>See More</Button>
                 </div>
             </div>
         </div>

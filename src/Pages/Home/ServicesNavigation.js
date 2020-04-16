@@ -8,7 +8,7 @@ import './homeStyle.scss'
 
 function ServicesNavigation(props) {
     return (
-        <div className={`service-nav-row flex items-center padding-lr`}>
+        <div className={`service-nav-row flex items-center padding-lr hide-on-mobile`}>
             <div className={`services-nav-bar flex items-center width-desktop`}>
                 <div className={`prev-icon`}>
                     <img src={Previous} alt="previous"/>
