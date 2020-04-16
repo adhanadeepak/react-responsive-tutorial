@@ -55,7 +55,7 @@ const List = (props) => {
 
     return(
         <div className={`list-container`}>
-            <DataList className={`hide-on-desktop`} variant={`blue`} Title={props.title}>
+            <DataList variant={`blue`} Title={props.title}>
                 <ul className={`list-style-none no-padding`}>
                     {props.list.map(item =>(
                         <li>{item}</li>
@@ -80,7 +80,6 @@ function Index(props) {
     return (
         <div  id={`footer`} className={`footer`}>
            <div className={`top-footer flex-col-mobile`}>
-
                <List title={`about us`} list={AboutUs}/>
                <List title={`Our Services`} list={OurServices}/>
                <List title={`Luxury Brands`} list={Luxury}/>

@@ -7,7 +7,7 @@ function Index(props) {
 
 
     return (
-            <details className={`${props.variant === 'blue' ? 'blue-details' : 'gray-details'}`}>
+            <details className={`${props.variant === 'blue' ? 'blue-details hide-on-desktop' : 'gray-details'}`}>
                 <summary className={`details-title`}>
                     {props.Title}
                 </summary>
