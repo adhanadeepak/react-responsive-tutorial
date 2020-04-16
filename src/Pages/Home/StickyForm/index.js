@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import PropTypes from 'prop-types';
 
 import './stickyForm.style.scss'
@@ -6,8 +6,32 @@ import Button from 'Components/Button';
 import Star from 'Assets/Images/star.svg';
 
 function Index(props) {
+
+
+    const onScroll = (e) => {
+        // console.log(e);
+        let sticky = document.getElementById('sticky-form');
+        let footer = document.getElementById('footer');
+
+        if(footer.getBoundingClientRect().top > 910){
+            sticky.classList.remove('hidden');
+
+        }
+        else{
+            sticky.classList.add('hidden');
+        }
+    };
+
+    useEffect(() => {
+
+        window.addEventListener('scroll', onScroll);
+        return (()=> {
+            window.removeEventListener('scroll', onScroll);
+        })
+    });
+
     return (
-        <div className={`sticky-form`}>
+        <div className={`sticky-form`} id={`sticky-form`}>
             <div className={`form-group text-left`}>
                     <div className={`w-full`}>
                         <h2 className={`title`}>The Best Card Service Awaits You</h2>

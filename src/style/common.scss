@@ -68,6 +68,12 @@
 }
 
 
+.hidden{
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
 @media screen and (min-width: 769px){
   .hide-on-desktop{
     display: none;
@@ -118,5 +124,23 @@
 @media screen  and (max-width: 768px){
   .width-desktop{
     width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  html{
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1284px){
+  html{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1690px){
+  html{
+    font-size: 17px;
   }
 }

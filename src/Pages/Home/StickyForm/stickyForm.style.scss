@@ -1,9 +1,10 @@
 .sticky-form{
   position: fixed;
-  top: 10rem;
+  top: 14rem;
   right: 5rem;
-  max-width: 25vw;
+  max-width: 30rem;
   font-size: 1rem;
+  box-shadow: 0 0 24px 4px #333;
 
   .w-full{
     width: 100%;
@@ -112,3 +113,9 @@
     }
 
 }
+
+  @media screen and ( max-width: 1023px){
+    .sticky-form{
+      display: none;
+    }
+  }
